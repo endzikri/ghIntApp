@@ -1,8 +1,11 @@
 trigger:
 - main
 
+# pr:
+#   autoCancel: true
+
 pr:
-  autoCancel: true
+- main
 
 pool: default
 
